@@ -24,10 +24,11 @@
     "@nivo/geo": "^0.87.0",
     "@nivo/line": "^0.87.0",
     "@nivo/pie": "^0.87.0",
+    "clink-react": "^0.2.12",
     "formik": "^2.4.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-pro-sidebar": "^1.1.0",
+    "react-pro-sidebar": "^0.7.1",
     "react-router-dom": "^6.24.1",
     "yup": "^1.4.0"
   },
