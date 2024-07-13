@@ -109,7 +109,7 @@ const Sidebar = () => {
 
                             <LinkItem
                                 title="Dashboard"
-                                to="/home"
+                                to="/"
                                 icon={<HomeOutlinedIcon />}
                                 selected={active}
                                 setSelected={setActive}

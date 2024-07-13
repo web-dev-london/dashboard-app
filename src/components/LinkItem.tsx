@@ -32,26 +32,3 @@ const LinkItem = (props: {
 }
 
 export default LinkItem;
-
-/* 
-       const LinkItem = ({ title, to, icon, selected, setSelected }) => {
-    const theme = useTheme();
-    const colors = tokens(theme.palette.mode);
-    return (
-        <MenuItem
-            active={selected === title}
-            style={{
-                color: colors.grey[100],
-            }}
-            onClick={() => setSelected(title)}
-            icon={icon}
-        >
-            <Clink to={to} style={{ textDecoration: "none" }}>
-                <Typography>{title}</Typography>
-            </Clink>
-        </MenuItem>
-    );
-};
-
-     
- */
