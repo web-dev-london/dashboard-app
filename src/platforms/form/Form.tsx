@@ -1,8 +1,11 @@
+import Header from "../../components/Header"
 
 const Form = () => {
     return (
-        <div>Form</div>
+        <>
+            <Header title="FORM" subtitle="Create a New User Profile" />
+        </>
     )
 }
 
-export default Form
+export default Form;

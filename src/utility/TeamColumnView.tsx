@@ -7,7 +7,7 @@ import { tokens } from '../theme';
 
 
 
-const GridColumn = () => {
+const TeamColumnView = () => {
     const { palette } = useTheme();
     const colors = tokens(palette.mode);
 
@@ -78,5 +78,5 @@ const GridColumn = () => {
     return { columns: columns }
 }
 
-export default GridColumn;
+export default TeamColumnView;
 

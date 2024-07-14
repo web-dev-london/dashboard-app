@@ -2,11 +2,11 @@ import { Box, useTheme } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import Header from '../../components/Header';
 import { mockDataTeam } from '../../data/mockData';
-import GridColumn from '../../utility/GridColumn';
+import TeamColumnView from '../../utility/TeamColumnView';
 import { tokens } from '../../theme';
 
 const Team = () => {
-    const { columns } = GridColumn();
+    const { columns } = TeamColumnView();
 
     const { palette } = useTheme();
     const colors = tokens(palette.mode);
