@@ -1,3 +1,3 @@
-import { MockDataTeam } from "./Types";
+import MockDataTeam from "./Types";
 
-export type { MockDataTeam };
+export type { MockDataTeam as default }
